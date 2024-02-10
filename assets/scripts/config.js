@@ -1,7 +1,6 @@
 export default {
   items: [
-    "pic/Image_1707568395929.png",
-    "pic/example1.jpg",
-    "pic/example2.jpg",
+    "pic/被冷水强碱了.jpg",
+    "pic/梦开始的地方.png",
   ]
 }
