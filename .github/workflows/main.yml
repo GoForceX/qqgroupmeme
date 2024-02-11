@@ -11,7 +11,6 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v2
               with:
-                  submodules: true
                   fetch-depth: 0
 
             - name: Setup Python
@@ -26,7 +25,7 @@ jobs:
               uses: peaceiris/actions-gh-pages@v3
               with:
                   PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-                  EXTERNAL_REPOSITORY: coin233/qqgroupmeme
+                  EXTERNAL_REPOSITORY: coin-233/qqgroupmeme
                   PUBLISH_BRANCH: master
                   PUBLISH_DIR: ./
                   commit_message: ${{ github.event.head_commit.message }}
